@@ -1,0 +1,381 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* Styling for Fame Points thing begins here */
+
+html {
+	background:#000 url('../T-34.jpg') top center no-repeat;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+table {
+	float:left;
+	border-collapse: collapse;
+	border-spacing: 0;
+	width:100%;
+	font-size:18px;
+}
+
+body {
+	margin:25px;
+	color: #fff;
+	font-family: 'Source Sans Pro', helvetica, arial, sans-serif;
+	text-shadow: 0px 0px 1px transparent !important;
+	text-rendering: optimizeLegibility !important;
+	font-size: 16px;
+	font-style:normal;
+	line-height:1.5em;
+}
+
+a {
+	color:darkorange;
+	text-decoration:none;
+}
+
+h1 {
+	font-size:26px;
+}
+
+h1 img {
+	margin-bottom:15px;
+}
+
+h2 {
+	font-size:22px;
+	margin-bottom:15px;
+	padding:24px;
+	text-align:center;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+h3 {
+	font-size: 16px;
+}
+
+p {
+	margin-bottom:17px;
+}
+
+em {
+	display:block;
+}
+
+strong {
+	font-weight:bold;
+}
+
+.nobreak {
+	white-space: nowrap;
+}
+
+ul {
+	display:block;
+	width:500px;
+	height:64px;
+	margin-bottom:17px;
+	padding-bottom:8px;
+}
+
+ul:after {
+	content:'';
+	display:block;
+	clear: both;
+}
+
+li a {
+	float:left;
+	display:block;
+	width:64px;
+	height:64px;
+	padding:2px;
+	text-indent:-9999px;
+	margin-right:10px;
+	background-size:60% !important;
+	transition: background-size 0.1s ease-in;
+	-moz-transition: background-size 0.1s ease-in;
+	-ms-transition: background-size 0.1s ease-in;
+	-o-transition: background-size 0.1s ease-in;
+	-webkit-transition: background-size 0.1s ease-in;
+}
+
+li a.last {
+	margin-right:0px !important;
+}
+
+li a.selected {
+	background-size:100% !important;
+}
+
+li a:hover {
+	background-size:80% !important;
+}
+
+.last {
+	border-right:0px none !important;
+}
+
+.first {
+	padding-left:0 !important;
+	margin-left:0 !important;
+}
+
+#qsf-all {
+	background: url(../icons/QSF-all.png) center center no-repeat;
+}
+
+#qsf {
+	background: url(../icons/QSF.png) center center no-repeat;
+}
+
+#qsf-c {
+	background: url(../icons/C.png) center center no-repeat;
+}
+
+#qsf-e {
+	background: url(../icons/E.png) center center no-repeat;
+}
+
+#qsf-l {
+	background: url(../icons/L.png) center center no-repeat;
+}
+
+#qsf-x {
+	background: url(../icons/X.png) center center no-repeat;
+}
+
+tr.odd {
+	background-color: rgba(255,255,255, 0.1);
+}
+
+td.recruit, td.leader, td.combat_officer, td.commander, td.vice_leader, td.intelligence_officer, td.junior_officer, td.personnel_officer, td.private, td.quartermaster, td.reservist, td.recruiter {
+	background-position:10px 50%;
+	background-repeat:no-repeat;
+	padding-left:48px;
+}
+
+td.recruit {
+	background-image: url(../icons/recruit.png);
+}
+
+td.leader {
+	background-image: url(../icons/commander.png);
+}
+
+td.reservist {
+	background-image: url(../icons/reservist.png);
+}
+
+td.personnel_officer {
+	background-image: url(../icons/personnel_officer.png);
+}
+
+td.private {
+	background-image: url(../icons/private.png);
+}
+
+td.vice_leader {
+	background-image: url(../icons/executive_officer.png);
+}
+
+td.quartermaster {
+	background-image: url(../icons/treasurer.png);
+}
+
+td.recruit {
+	background-image: url(../icons/recruit.png);
+}
+
+td.recruiter {
+	background-image: url(../icons/recruitment_officer.png);
+}
+
+td.junior_officer {
+	background-image: url(../icons/junior_officer.png);
+}
+
+td.commander {
+	background-image: url(../icons/combat_officer.png);
+}
+
+td.diplomat {
+	background-image: url(../icons/intelligence_officer.png);
+}
+
+.negative{
+	color:red !important;
+}
+
+.positive {
+	color:darkgreen !important;
+}
+
+th {
+	padding-bottom:10px;
+	color:#efefef;
+	font-size:14px;
+}
+
+td.fame, td.pos, td.fameUpdated, td.fame11k {
+	text-align:center;
+}
+
+td {
+	padding:15px 20px;
+}
+
+td.accountName {
+	border-right:3px transparent;
+}
+
+tr.green td.accountName {
+	border-right:3px solid green;
+}
+
+tr.orange td.accountName {
+	border-right:3px solid darkorange;
+}
+
+.logo-holder {
+	display:block;
+	padding-bottom:10px;
+}
+
+.clanFame {
+	float:left;
+	display:block;
+	line-height:12px;
+	padding:10px 30px;
+	margin-bottom:40px;
+	font-size:28px;
+	font-weight:bold;
+	border-right:1px solid rgba(255,255,255,0.1);
+}
+
+.clanFame em {
+	color: #efefef;
+	font-size:14px !important;
+	font-weight:normal !important;
+}
+
+.battleSchedule {
+	width:330px;
+	position:fixed;
+	right:20px;
+	display:inline;
+	background:rgba(255,255,255,0.1);
+	border: 1px solid rgba(255,255,255,0.2);
+}
+
+.battleSchedule p {
+	margin-left:10px;
+}
+
+.past {
+	color:#666 !important;
+}
+
+#data {
+	width:100%;
+}
+
+#data p {
+	margin:10px 0;
+	color:#efefef;
+	font-size:14px;
+}
+
+#data p img {
+	margin-top:25px;
+}
+
+.battle {
+	border-bottom:1px solid rgba(255,255,255,0.2);
+	padding: 5px 0;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+.battletime {
+	padding-left:5px;
+}
+
+.largeTime {
+	font-size:22px;
+}
+
+.over {
+	padding-left:5px;
+}
+
+.upcoming {
+	padding-left:5px;
+}
+
+.nobattles {
+	padding:0;
+	border-left:0px none !important;
+	display:inline !important;
+}
+
+.main-wrapper {
+	padding-top:0;
+	margin-right:380px;
+}
+
+.clan-header {
+	margin-bottom:25px;
+}
+
+.hidden {
+	visibility:hidden;
+}
+
+footer {
+clear:both;
+	margin:25px auto;
+	text-align:center;
+	padding:5px;
+}
