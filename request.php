@@ -164,7 +164,7 @@
 									<div class="clanFame"><em>Fame</em><br />'.$clanFame['points'].'</div>
 									<div class="clanFame"><em>Player\'s Points</em><br />'.$clanFame['players_points'].'</div>
 									<div class="clanFame"><em>Bonus Points</em><br />'.$clanFame['bonus_points'].'</div>
-									<div class="clanFame" title="Average daily Fame needed to maintain the 11,000th spot"><em>11,000th spot avg/d</em><br />2,571</div>
+									<div class="clanFame" title="Average daily Fame needed to maintain the 11,000th spot"><em>11,000th spot avg/d</em><br />4,500</div>
 									<div class="clanFame"><em>Updated at</em><br /><span class="fameUpdated" title="'.date('r',$clanFame['updated_at']).'">'.date('r',$clanFame['updated_at']).'</span></div>
 								</header>';
 				}
