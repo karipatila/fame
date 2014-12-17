@@ -26,7 +26,7 @@
 	$baseURL = 'http://apcr.hol.es/fame/';
 	date_default_timezone_set("GMT");
 	# define the allowed inputs and Wargaming Clan IDs. restricted to QSF clans for now.
-	$clans = array('QSF'=>500017963,'QSF-C'=>500029108,'QSF-E'=>500031759,'QSF-L'=>500035013,'QSF-X'=>500022842);
+	$clans = array('QSF'=>500017963,'QSF-C'=>500029108,'QSF-E'=>500031759,'QSF-L'=>500035013,'QSF-X'=>500022842, 'WHO'=>500017822);
 	# defaults to QSF if no input is given
 	$input = isset($_GET['clan']) ? $_GET['clan']:'';
 	# we want the clan names always in uppercase

@@ -27,7 +27,7 @@
 	$APIErrorMessage = '<p><strong>Error: API did not respond. (request)</strong></p><br />';
 	
 	# The clan array and the checks present in index.php are duplicated in this file, since it needs to be called individually. Check index.php for comments.
-	$clans = array('QSF'=>500017963,'QSF-C'=>500029108,'QSF-E'=>500031759,'QSF-L'=>500035013,'QSF-X'=>500022842);
+	$clans = array('QSF'=>500017963,'QSF-C'=>500029108,'QSF-E'=>500031759,'QSF-L'=>500035013,'QSF-X'=>500022842, 'WHO'=>500017822);
 	if($_GET['clan'] != 'ALL'){
 		$input = $_GET['clan'];
 	} else {
@@ -164,7 +164,7 @@
 									<div class="clanFame"><em>Fame</em><br />'.$clanFame['points'].'</div>
 									<div class="clanFame"><em>Player\'s Points</em><br />'.$clanFame['players_points'].'</div>
 									<div class="clanFame"><em>Bonus Points</em><br />'.$clanFame['bonus_points'].'</div>
-									<div class="clanFame" title="Average daily Fame needed to maintain the 11,000th spot"><em>11,000th spot avg/d</em><br />4,500</div>
+									<div class="clanFame" title="Average daily Fame needed to maintain the 11,000th spot"><em>11,000th spot avg/d</em><br />3,244</div>
 									<div class="clanFame"><em>Updated at</em><br /><span class="fameUpdated" title="'.date('r',$clanFame['updated_at']).'">'.date('r',$clanFame['updated_at']).'</span></div>
 								</header>';
 				}
